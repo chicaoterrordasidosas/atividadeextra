@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real salfixo, saltotal, valvendas, por = 0
+		cadeia mes
+		escreva ("informe o mes ")
+			leia(mes)
+		escreva("informe seu salario ")
+			leia(salfixo)
+		escreva("informe o valor de vendas ")
+			leia(valvendas)
+		se(valvendas <= 2000){
+		por = 4.0 /100
+		saltotal = salfixo + (salfixo*por)
+		escreva("No mês de ",mes," o salario total é ", saltotal)
+		}senao se (valvendas > 2000){
+		por = 5.0 /100
+		saltotal = salfixo + (salfixo*por)
+		escreva("No mês de ",mes," o salario total é ", saltotal)}
+	}
+}
