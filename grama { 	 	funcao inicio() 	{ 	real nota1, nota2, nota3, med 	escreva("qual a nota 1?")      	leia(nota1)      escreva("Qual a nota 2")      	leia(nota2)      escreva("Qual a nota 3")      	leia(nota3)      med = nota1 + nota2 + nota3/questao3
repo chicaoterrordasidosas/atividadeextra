@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano, ano1, idade
+		escreva("Que ano voce nasceu?")
+			leia(ano)
+
+		escreva("Em que ano estamos")
+			leia(ano1)
+		idade = ano1 - ano
+			se(idade < 16){
+				escreva("Não pode votar")
+			}
+			senao se(idade >= 16) {
+				escreva("Pode votar")
+				
+			}
+	}
+
+}
