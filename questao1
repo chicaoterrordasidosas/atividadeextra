@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		caracter sexo
+		real altura
+		escreva("Qual seu sexo( responda com m ou f)?")
+			leia(sexo)
+		se(sexo == 'm' ){
+			escreva("Qual a sua altura?")
+				leia(altura)
+		se(altura >= 1.60){
+			escreva("Apto a serviço militar")
+					   }
+		senao{
+			escreva("Não apto ao serviço militar obrigatotio")			   		
+			}
+				  }
+	}
+}
