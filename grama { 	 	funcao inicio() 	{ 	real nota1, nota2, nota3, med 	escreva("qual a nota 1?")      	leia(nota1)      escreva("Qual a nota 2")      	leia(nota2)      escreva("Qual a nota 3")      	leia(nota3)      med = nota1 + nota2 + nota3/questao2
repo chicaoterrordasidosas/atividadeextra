@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real nota1, nota2, nota3, med
+	escreva("qual a nota 1?")
+     	leia(nota1)
+     escreva("Qual a nota 2")
+     	leia(nota2)
+     escreva("Qual a nota 3")
+     	leia(nota3)
+     med = nota1 + nota2 + nota3 / 3
+     	se(med >= 6 e med <= 8){
+     		escreva("Boa nota")
+     	}
+     	senao se(med > 8){
+     		escreva("Excelente nota")
+     	}
+     	senao se(med < 6 ){
+     		escreva("Precisa de nota")
+     	}
+     }
+	
+}
